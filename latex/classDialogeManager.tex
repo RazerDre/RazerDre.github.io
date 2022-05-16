@@ -1,0 +1,140 @@
+\hypertarget{classDialogeManager}{}\doxysection{Dialoge\+Manager}
+\label{classDialogeManager}\index{DialogeManager@{DialogeManager}}
+Inheritance diagram for Dialoge\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classDialogeManager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classDialogeManager_a6ecfe2b64e90d85dabac1121b4872d7d}{Display\+Next\+Sentece}} ()
+\begin{DoxyCompactList}\small\item\em Перехід на наступну строку діалогу або закриття якщо такої немає \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDialogeManager_a27eeeae4fa8c479e746fd43a6efd650d}{End\+Dialoge}} ()
+\begin{DoxyCompactList}\small\item\em Зачиняємо діалогове вікно \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDialogeManager_a07aaf1227e4d645f15e0a964f54ef291}{Start}} ()
+\item 
+void \mbox{\hyperlink{classDialogeManager_a2ccad7281e9755c00e40ac9d29841236}{Start\+Dialoge}} (\mbox{\hyperlink{classDialoge}{Dialoge}} dialoge)
+\begin{DoxyCompactList}\small\item\em Відкриття діалогового вікна після натискання на кнопку початку діалогу \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Animator \mbox{\hyperlink{classDialogeManager_a30c0e345ebad11c4ae7fc4f56a9948e8}{box\+Anim}}
+\item 
+Text \mbox{\hyperlink{classDialogeManager_ac9b5865aee5c64dc58772de5cfa5a676}{dialogue\+Text}}
+\item 
+Text \mbox{\hyperlink{classDialogeManager_af44be241dc451aebf0323802e1006f2c}{name\+Text}}
+\item 
+Animator \mbox{\hyperlink{classDialogeManager_a83776b0961b2e9b8783c16acce4391ca}{start\+Anim}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+IEnumerator \mbox{\hyperlink{classDialogeManager_aa11f0de29f887b860aaeb3302974993d}{Type\+Sentence}} (string sentence)
+\begin{DoxyCompactList}\small\item\em Вивід речень \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Queue$<$ string $>$ \mbox{\hyperlink{classDialogeManager_acb22c302bcb8febc4d1b77c76e7b999f}{sentences}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDialogeManager_a6ecfe2b64e90d85dabac1121b4872d7d}\label{classDialogeManager_a6ecfe2b64e90d85dabac1121b4872d7d}} 
+\index{DialogeManager@{DialogeManager}!DisplayNextSentece@{DisplayNextSentece}}
+\index{DisplayNextSentece@{DisplayNextSentece}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{DisplayNextSentece()}{DisplayNextSentece()}}
+{\footnotesize\ttfamily void Display\+Next\+Sentece (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Перехід на наступну строку діалогу або закриття якщо такої немає 
+
+\mbox{\Hypertarget{classDialogeManager_a27eeeae4fa8c479e746fd43a6efd650d}\label{classDialogeManager_a27eeeae4fa8c479e746fd43a6efd650d}} 
+\index{DialogeManager@{DialogeManager}!EndDialoge@{EndDialoge}}
+\index{EndDialoge@{EndDialoge}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{EndDialoge()}{EndDialoge()}}
+{\footnotesize\ttfamily void End\+Dialoge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Зачиняємо діалогове вікно 
+
+\mbox{\Hypertarget{classDialogeManager_a07aaf1227e4d645f15e0a964f54ef291}\label{classDialogeManager_a07aaf1227e4d645f15e0a964f54ef291}} 
+\index{DialogeManager@{DialogeManager}!Start@{Start}}
+\index{Start@{Start}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classDialogeManager_a2ccad7281e9755c00e40ac9d29841236}\label{classDialogeManager_a2ccad7281e9755c00e40ac9d29841236}} 
+\index{DialogeManager@{DialogeManager}!StartDialoge@{StartDialoge}}
+\index{StartDialoge@{StartDialoge}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{StartDialoge()}{StartDialoge()}}
+{\footnotesize\ttfamily void Start\+Dialoge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classDialoge}{Dialoge}}}]{dialoge }\end{DoxyParamCaption})}
+
+
+
+Відкриття діалогового вікна після натискання на кнопку початку діалогу 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dialoge} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDialogeManager_aa11f0de29f887b860aaeb3302974993d}\label{classDialogeManager_aa11f0de29f887b860aaeb3302974993d}} 
+\index{DialogeManager@{DialogeManager}!TypeSentence@{TypeSentence}}
+\index{TypeSentence@{TypeSentence}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{TypeSentence()}{TypeSentence()}}
+{\footnotesize\ttfamily IEnumerator Type\+Sentence (\begin{DoxyParamCaption}\item[{string}]{sentence }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Вивід речень 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sentence} & Речення яке виводится \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classDialogeManager_a30c0e345ebad11c4ae7fc4f56a9948e8}\label{classDialogeManager_a30c0e345ebad11c4ae7fc4f56a9948e8}} 
+\index{DialogeManager@{DialogeManager}!boxAnim@{boxAnim}}
+\index{boxAnim@{boxAnim}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{boxAnim}{boxAnim}}
+{\footnotesize\ttfamily Animator box\+Anim}
+
+\mbox{\Hypertarget{classDialogeManager_ac9b5865aee5c64dc58772de5cfa5a676}\label{classDialogeManager_ac9b5865aee5c64dc58772de5cfa5a676}} 
+\index{DialogeManager@{DialogeManager}!dialogueText@{dialogueText}}
+\index{dialogueText@{dialogueText}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{dialogueText}{dialogueText}}
+{\footnotesize\ttfamily Text dialogue\+Text}
+
+\mbox{\Hypertarget{classDialogeManager_af44be241dc451aebf0323802e1006f2c}\label{classDialogeManager_af44be241dc451aebf0323802e1006f2c}} 
+\index{DialogeManager@{DialogeManager}!nameText@{nameText}}
+\index{nameText@{nameText}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{nameText}{nameText}}
+{\footnotesize\ttfamily Text name\+Text}
+
+\mbox{\Hypertarget{classDialogeManager_acb22c302bcb8febc4d1b77c76e7b999f}\label{classDialogeManager_acb22c302bcb8febc4d1b77c76e7b999f}} 
+\index{DialogeManager@{DialogeManager}!sentences@{sentences}}
+\index{sentences@{sentences}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{sentences}{sentences}}
+{\footnotesize\ttfamily Queue$<$string$>$ sentences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDialogeManager_a83776b0961b2e9b8783c16acce4391ca}\label{classDialogeManager_a83776b0961b2e9b8783c16acce4391ca}} 
+\index{DialogeManager@{DialogeManager}!startAnim@{startAnim}}
+\index{startAnim@{startAnim}!DialogeManager@{DialogeManager}}
+\doxysubsubsection{\texorpdfstring{startAnim}{startAnim}}
+{\footnotesize\ttfamily Animator start\+Anim}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Project\+UN/\+Platformer/\+Assets/scripts/\+Scripts/dialog/\mbox{\hyperlink{DialogeManager_8cs}{Dialoge\+Manager.\+cs}}\end{DoxyCompactItemize}
