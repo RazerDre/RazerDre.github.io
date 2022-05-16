@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classDialogeTrigger" kind="class" language="C#" prot="public">
+    <compoundname>DialogeTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDialogeTrigger_1ad21c3e509624214f8d8a516ce6b01005" prot="public" static="no" mutable="no">
+        <type><ref refid="classDialoge" kindref="compound">Dialoge</ref></type>
+        <definition>Dialoge dialoge</definition>
+        <argsstring></argsstring>
+        <name>dialoge</name>
+        <qualifiedname>DialogeTrigger.dialoge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeTrigger.cs" line="10" column="20" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeTrigger.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDialogeTrigger_1a0fbe19e8948996a4a555ab6c25498cd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerDialogue</definition>
+        <argsstring>()</argsstring>
+        <name>TriggerDialogue</name>
+        <qualifiedname>DialogeTrigger.TriggerDialogue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeTrigger.cs" line="13" column="17" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeTrigger.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Dialoge</label>
+        <link refid="classDialoge"/>
+      </node>
+      <node id="1">
+        <label>DialogeTrigger</label>
+        <link refid="classDialogeTrigger"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>dialoge</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeTrigger.cs" line="8" column="7" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeTrigger.cs" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classDialogeTrigger_1ad21c3e509624214f8d8a516ce6b01005" prot="public" virt="non-virtual"><scope>DialogeTrigger</scope><name>dialoge</name></member>
+      <member refid="classDialogeTrigger_1a0fbe19e8948996a4a555ab6c25498cd2" prot="public" virt="non-virtual"><scope>DialogeTrigger</scope><name>TriggerDialogue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classDialoge" kind="class" language="C#" prot="public">
+    <compoundname>Dialoge</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDialoge_1a8ccf841cb59e451791bcb2e1ac4f1edc" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Dialoge.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/Dialoge.cs" line="11" column="19" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/Dialoge.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDialoge_1af453ba66f67a4c4a0df04dfba3147b48" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] sentences</definition>
+        <argsstring></argsstring>
+        <name>sentences</name>
+        <qualifiedname>Dialoge.sentences</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/Dialoge.cs" line="13" column="19" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/Dialoge.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Ініціалізація масиву строк для діалогу </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/Dialoge.cs" line="9" column="7" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/Dialoge.cs" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classDialoge_1a8ccf841cb59e451791bcb2e1ac4f1edc" prot="public" virt="non-virtual"><scope>Dialoge</scope><name>name</name></member>
+      <member refid="classDialoge_1af453ba66f67a4c4a0df04dfba3147b48" prot="public" virt="non-virtual"><scope>Dialoge</scope><name>sentences</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

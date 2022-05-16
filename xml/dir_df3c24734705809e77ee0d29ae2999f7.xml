@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_df3c24734705809e77ee0d29ae2999f7" kind="dir">
+    <compoundname>C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog</compoundname>
+    <innerfile refid="Dialoge_8cs">Dialoge.cs</innerfile>
+    <innerfile refid="DialogeAnimator_8cs">DialogeAnimator.cs</innerfile>
+    <innerfile refid="DialogeManager_8cs">DialogeManager.cs</innerfile>
+    <innerfile refid="DialogeTrigger_8cs">DialogeTrigger.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_946762114e3f9fcbd7d9858390cf241f" kind="dir">
+    <compoundname>C:/ProjectUN/Platformer/Assets/scripts</compoundname>
+    <innerdir refid="dir_b5b5419d0b90aa2092e3855cbfad8dc7">C:/ProjectUN/Platformer/Assets/scripts/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/ProjectUN/Platformer/Assets/scripts/"/>
+  </compounddef>
+</doxygen>

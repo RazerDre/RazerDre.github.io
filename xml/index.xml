@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.4" xml:lang="en-US">
+  <compound refid="classDialoge" kind="class"><name>Dialoge</name>
+    <member refid="classDialoge_1a8ccf841cb59e451791bcb2e1ac4f1edc" kind="variable"><name>name</name></member>
+    <member refid="classDialoge_1af453ba66f67a4c4a0df04dfba3147b48" kind="variable"><name>sentences</name></member>
+  </compound>
+  <compound refid="classDialogeAnimator" kind="class"><name>DialogeAnimator</name>
+    <member refid="classDialogeAnimator_1ad2115427e0daa4bed693c7606cd9bd02" kind="variable"><name>dm</name></member>
+    <member refid="classDialogeAnimator_1a83776b0961b2e9b8783c16acce4391ca" kind="variable"><name>startAnim</name></member>
+    <member refid="classDialogeAnimator_1ad8977c264b58f2c0e3e69af81c83644d" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="classDialogeAnimator_1a44ebcf048524a4fc189c39533c950641" kind="function"><name>OnTriggerExit2D</name></member>
+  </compound>
+  <compound refid="classDialogeManager" kind="class"><name>DialogeManager</name>
+    <member refid="classDialogeManager_1a30c0e345ebad11c4ae7fc4f56a9948e8" kind="variable"><name>boxAnim</name></member>
+    <member refid="classDialogeManager_1ac9b5865aee5c64dc58772de5cfa5a676" kind="variable"><name>dialogueText</name></member>
+    <member refid="classDialogeManager_1af44be241dc451aebf0323802e1006f2c" kind="variable"><name>nameText</name></member>
+    <member refid="classDialogeManager_1a83776b0961b2e9b8783c16acce4391ca" kind="variable"><name>startAnim</name></member>
+    <member refid="classDialogeManager_1acb22c302bcb8febc4d1b77c76e7b999f" kind="variable"><name>sentences</name></member>
+    <member refid="classDialogeManager_1a6ecfe2b64e90d85dabac1121b4872d7d" kind="function"><name>DisplayNextSentece</name></member>
+    <member refid="classDialogeManager_1a27eeeae4fa8c479e746fd43a6efd650d" kind="function"><name>EndDialoge</name></member>
+    <member refid="classDialogeManager_1a07aaf1227e4d645f15e0a964f54ef291" kind="function"><name>Start</name></member>
+    <member refid="classDialogeManager_1a2ccad7281e9755c00e40ac9d29841236" kind="function"><name>StartDialoge</name></member>
+    <member refid="classDialogeManager_1aa11f0de29f887b860aaeb3302974993d" kind="function"><name>TypeSentence</name></member>
+  </compound>
+  <compound refid="classDialogeTrigger" kind="class"><name>DialogeTrigger</name>
+    <member refid="classDialogeTrigger_1ad21c3e509624214f8d8a516ce6b01005" kind="variable"><name>dialoge</name></member>
+    <member refid="classDialogeTrigger_1a0fbe19e8948996a4a555ab6c25498cd2" kind="function"><name>TriggerDialogue</name></member>
+  </compound>
+  <compound refid="namespaceSystem_1_1Collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Collections_1_1Generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceUnityEngine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespaceUnityEngine_1_1UI" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="Dialoge_8cs" kind="file"><name>Dialoge.cs</name>
+  </compound>
+  <compound refid="DialogeAnimator_8cs" kind="file"><name>DialogeAnimator.cs</name>
+  </compound>
+  <compound refid="DialogeManager_8cs" kind="file"><name>DialogeManager.cs</name>
+  </compound>
+  <compound refid="DialogeTrigger_8cs" kind="file"><name>DialogeTrigger.cs</name>
+  </compound>
+  <compound refid="dir_691ccb25ddf1b369974000ce3cc4f14c" kind="dir"><name>C:/ProjectUN/Platformer/Assets</name>
+  </compound>
+  <compound refid="dir_e6bb53534ac0e427887cf7a94c0c004e" kind="dir"><name>C:</name>
+  </compound>
+  <compound refid="dir_df3c24734705809e77ee0d29ae2999f7" kind="dir"><name>C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog</name>
+  </compound>
+  <compound refid="dir_62359ac1f8abeaa74bb72ef424177eff" kind="dir"><name>C:/ProjectUN/Platformer</name>
+  </compound>
+  <compound refid="dir_00ee72474ff02512f7a271f7101686c8" kind="dir"><name>C:/ProjectUN</name>
+  </compound>
+  <compound refid="dir_946762114e3f9fcbd7d9858390cf241f" kind="dir"><name>C:/ProjectUN/Platformer/Assets/scripts</name>
+  </compound>
+  <compound refid="dir_b5b5419d0b90aa2092e3855cbfad8dc7" kind="dir"><name>C:/ProjectUN/Platformer/Assets/scripts/Scripts</name>
+  </compound>
+</doxygenindex>

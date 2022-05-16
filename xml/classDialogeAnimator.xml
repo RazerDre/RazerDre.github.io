@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classDialogeAnimator" kind="class" language="C#" prot="public">
+    <compoundname>DialogeAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDialogeAnimator_1ad2115427e0daa4bed693c7606cd9bd02" prot="public" static="no" mutable="no">
+        <type><ref refid="classDialogeManager" kindref="compound">DialogeManager</ref></type>
+        <definition>DialogeManager dm</definition>
+        <argsstring></argsstring>
+        <name>dm</name>
+        <qualifiedname>DialogeAnimator.dm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" line="8" column="27" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDialogeAnimator_1a83776b0961b2e9b8783c16acce4391ca" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator startAnim</definition>
+        <argsstring></argsstring>
+        <name>startAnim</name>
+        <qualifiedname>DialogeAnimator.startAnim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" line="7" column="21" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDialogeAnimator_1ad8977c264b58f2c0e3e69af81c83644d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <qualifiedname>DialogeAnimator.OnTriggerEnter2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Тригер для кнопки почати діалог відкрити </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Обєкт тригеру</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" line="17" column="17" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classDialogeAnimator_1a44ebcf048524a4fc189c39533c950641" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnTriggerExit2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerExit2D</name>
+        <qualifiedname>DialogeAnimator.OnTriggerExit2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Тригер для кнопки почати діалог відкрити </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Обєкт тригеру</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" line="25" column="17" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>DialogeAnimator</label>
+        <link refid="classDialogeAnimator"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>dm</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DialogeManager</label>
+        <link refid="classDialogeManager"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" line="5" column="7" bodyfile="C:/ProjectUN/Platformer/Assets/scripts/Scripts/dialog/DialogeAnimator.cs" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classDialogeAnimator_1ad2115427e0daa4bed693c7606cd9bd02" prot="public" virt="non-virtual"><scope>DialogeAnimator</scope><name>dm</name></member>
+      <member refid="classDialogeAnimator_1ad8977c264b58f2c0e3e69af81c83644d" prot="public" virt="non-virtual"><scope>DialogeAnimator</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="classDialogeAnimator_1a44ebcf048524a4fc189c39533c950641" prot="public" virt="non-virtual"><scope>DialogeAnimator</scope><name>OnTriggerExit2D</name></member>
+      <member refid="classDialogeAnimator_1a83776b0961b2e9b8783c16acce4391ca" prot="public" virt="non-virtual"><scope>DialogeAnimator</scope><name>startAnim</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
